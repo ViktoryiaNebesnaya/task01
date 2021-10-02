@@ -1,0 +1,10 @@
+public class task01.03;
+public static void main(String args[]) {
+{
+int a = 10;
+int b = 8;
+int c = 6;
+int p = a+b+c;
+    System.out.println("p");
+}
+}
