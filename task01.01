@@ -1,4 +1,4 @@
-public class task01;
+public class task01.01;
 public static void main(String args[]) {
 int a = 1212;
 int b = 1 + 2;
