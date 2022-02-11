@@ -1,0 +1,41 @@
+package com.epam.java.task06
+
+public class Task06 {
+  public static void main(String[] args) {
+    int a;
+    int b;
+    int c;
+    int max;
+    int min;
+
+    a = 2;
+    b = -7;
+    c = 80;
+    max = 0;
+    min = 0;
+
+    if ((a >= b) && (a >= c))
+      max = a;
+    if ((b >= a) && (b >= c))
+      max = b;
+    if ((c >= b) && (c >= a))
+      max = c;
+
+    if ((a <= b) && (a <= c))
+      min = a;
+    if ((b <= a) && (b <= c))
+      min = b;
+    if ((c <= b) && (c <= a))
+      min = c;
+
+    System.out.println("input three number: ");
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(c);
+    System.out.println("the sum of the minimum and maximum number: ");
+    System.out.print("max +" + " min = ");
+    System.out.print(max + min);
+    
+
+  }
+}
