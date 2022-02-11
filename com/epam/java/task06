@@ -2,17 +2,33 @@ package com.epam.java.task06
 
 public class Task06 {
   public static void main(String[] args) {
-    int a;
-    int b;
-    int c;
-    int max;
-    int min;
 
+System.out.println("input three number: ");
+
+    int a;
     a = 2;
+System.out.print("a = ");    
+System.out.println(a);
+
+ 
+    int b;
     b = -7;
+ System.out.print("b = ");
+ System.out.println(b);   
+
+    int c;
     c = 80;
+ System.out.print("c = ");    
+ System.out.println(c);
+ 
+ 
+System.out.println("find minimum and maximum number: ");    
+    int max;
     max = 0;
+    
+    int min;
     min = 0;
+System.out.println("if ((a >= b) && (a >= c))");  
 
     if ((a >= b) && (a >= c))
       max = a;
@@ -28,11 +44,11 @@ public class Task06 {
     if ((c <= b) && (c <= a))
       min = c;
 
-    System.out.println("input three number: ");
-    System.out.println(a);
-    System.out.println(b);
-    System.out.println(c);
-    System.out.println("the sum of the minimum and maximum number: ");
+    
+    
+    
+    
+    System.out.println("the sum of the minimum and maximum number: "); 
     System.out.print("max +" + " min = ");
     System.out.print(max + min);
     
